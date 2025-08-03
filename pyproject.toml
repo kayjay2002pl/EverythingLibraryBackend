@@ -1,0 +1,22 @@
+[project]
+name = "kino-be"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "KJstingray",email = "kacper.j@itstartechs.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic (>=1.16.4,<2.0.0)",
+    "fastapi[standard] (>=0.116.1,<0.117.0)",
+    "fastapi-sqlalchemy (>=0.2.1,<0.3.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "psycopg2 (>=2.9.10,<3.0.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
