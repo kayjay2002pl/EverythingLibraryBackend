@@ -1,4 +1,4 @@
-from kinoBE.core.schema import SchemaConfig
+from app.core.schema import SchemaConfig
 
 
 class User(SchemaConfig):

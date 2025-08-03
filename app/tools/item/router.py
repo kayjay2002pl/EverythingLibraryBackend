@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, status
 
-from kinoBE.core.database import SessionLocal, create_session
-from kinoBE.tools.item.crud import ItemCRUD
-from kinoBE.tools.schema import Item
+from app.core.database import SessionLocal, create_session
+from app.tools.item.crud import ItemCRUD
+from app.tools.schema import Item
 
 router = APIRouter(
     tags=["item"]

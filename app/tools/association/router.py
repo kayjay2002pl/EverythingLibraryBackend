@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, status
 
-from kinoBE.core.database import SessionLocal, create_session
-from kinoBE.tools.association.crud import AssociationCRUD
-from kinoBE.tools.schema import Association
+from app.core.database import SessionLocal, create_session
+from app.tools.association.crud import AssociationCRUD
+from app.tools.schema import Association
 
 router = APIRouter(
     tags=["association"]

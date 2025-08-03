@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, status
 
-from kinoBE.core.database import SessionLocal, create_session
-from kinoBE.tools.user.crud import UserCRUD
-from kinoBE.tools.schema import User
+from app.core.database import SessionLocal, create_session
+from app.tools.user.crud import UserCRUD
+from app.tools.schema import User
 
 router = APIRouter(
     tags=["user"]

@@ -1,7 +1,7 @@
 import sqlalchemy as db
 from sqlalchemy.dialects.postgresql import UUID
 
-from kinoBE.core.models import BaseModel
+from app.core.models import BaseModel
 
 # This is a config file for main database objects
 # Feature roadmap includes interactive commandline program to easily edit all of them

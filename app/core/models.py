@@ -3,7 +3,7 @@ import uuid
 import sqlalchemy as db
 from sqlalchemy.dialects.postgresql import UUID
 
-from kinoBE.core.database import Base
+from app.core.database import Base
 
 class BaseModel(Base):
     __abstract__ = True

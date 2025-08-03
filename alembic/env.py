@@ -9,10 +9,10 @@ import os, sys
 
 from dotenv import load_dotenv
 
-from kinoBE.core.env_loader import SQLALCHEMY_DATABASE_URL
-from kinoBE.core.database import Base
-from kinoBE.core.models import *
-from kinoBE.tools.models import *
+from app.core.env_loader import SQLALCHEMY_DATABASE_URL
+from app.core.database import Base
+from app.core.models import *
+from app.tools.models import *
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 load_dotenv(os.path.join(BASE_DIR, ".env"))

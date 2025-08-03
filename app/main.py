@@ -1,8 +1,8 @@
 from typing import Union, Dict
 from fastapi import FastAPI, APIRouter
 
-from kinoBE.tools import tag_router, item_router, association_router, user_router
-from kinoBE.core import env_loader
+from app.tools import tag_router, item_router, association_router, user_router
+from app.core import env_loader
 
 app = FastAPI()
 
